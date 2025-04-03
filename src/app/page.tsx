@@ -24,7 +24,7 @@ export default function Home() {
           <ModeToggle />
         </div>
         <div>
-          <h1 className="text-2xl md:text-4xl font-medium">Kartik Labhshetwar</h1>
+          <h1 className="text-2xl md:text-4xl font-medium">Sengar Kunal Singh</h1>
           <div className="flex items-center gap-2 mt-2">
             <span className="relative flex h-3 w-3">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
