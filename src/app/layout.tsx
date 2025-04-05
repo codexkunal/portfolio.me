@@ -10,19 +10,19 @@ const nunito = Nunito_Sans({
 })
 
 export const metadata: Metadata = {
-  title: 'kartik labhshetwar',
+  title: 'Sengar kunal singh',
   description: 'I build products that solve real problems. Available for new opportunities.',
   openGraph: {
-    title: 'Kartik Labhshetwar | Full-Stack Developer | Software engineer',
+    title: 'Sengar Kunal Singh | Full-Stack Developer | Software engineer',
     description: 'I build products that solve real problems. Available for new opportunities.',
     url: 'https://kartik017.vercel.app/',
-    siteName: 'Kartik Labhshetwar Portfolio',
+    siteName: 'Sengar kunal singh Portfolio',
     locale: 'en_US',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Kartik Labhshetwar | Full-Stack Developer | Software engineer',
+    title: 'Sengar kunal singh | Full-Stack Developer | Software engineer',
     description: 'I build products that solve real problems. Available for new opportunities.',
     creator: '@code_kartik',
   },

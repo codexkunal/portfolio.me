@@ -1,6 +1,7 @@
 'use client'
 
 import {ModeToggle} from "@/components/theme-toggle"
+import GithubCalendarSection from "@/components/GithubCalenderSection"
 import Footer from "@/components/Footer"
 import OnekoCat from "@/components/OnekoCat"
 import Reach from "@/components/Reach"
@@ -44,15 +45,15 @@ export default function Home() {
                 full-stack
               </span>
               <span className="px-4 py-2 bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 rounded-md text-sm md:text-base">
-                ai
+                AI/ML
               </span>
-              <span className="px-4 py-2 bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 rounded-md text-sm md:text-base">
+              {/* <span className="px-4 py-2 bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 rounded-md text-sm md:text-base">
                 ui/ux
-              </span>
+              </span> */}
             </div>
             
             <a
-              href="https://drive.google.com/file/d/16GJ9oWGZaaN1mtxXErQJsQhqjk3quXh3/view?usp=sharing"
+              href="https://drive.google.com/file/d/1AvpUKHwtlV9s5nUbg92Gq0lb266Ua0c1/view?usp=sharing"
               className="inline-flex items-center justify-center px-3 py-2 bg-neutral-100 dark:bg-neutral-800/30 text-neutral-800 dark:text-neutral-200 rounded-md border border-neutral-300 dark:border-neutral-700 hover:bg-neutral-200 dark:hover:bg-neutral-700/50 transition-colors font-medium"
               target="_blank"
               rel="noopener noreferrer"
@@ -63,10 +64,11 @@ export default function Home() {
             </a>
 
 
-            <Link href={'https://cal.com/kartik-labhshetwar/15min'} target="_blank" className=" pl-4 text-lg md:text-xl hover:underline" >
+            {/* <Link href={'https://cal.com/kartik-labhshetwar/15min'} target="_blank" className=" pl-4 text-lg md:text-xl hover:underline" >
                 book a meet
-            </Link>
+            </Link> */}
           </div>
+          <GithubCalendarSection/>
         </div>
 
         <div className="w-full">
